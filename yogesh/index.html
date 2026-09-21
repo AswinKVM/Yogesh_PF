@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogesh — Luxury Hotel Management Professional</title>
+  <meta name="description" content="Portfolio of Yogesh, an award-winning hotel management professional with 12+ years of experience in luxury hospitality, operations management, and guest experience design.">
+  <meta name="keywords" content="hotel management, hospitality, luxury hotels, portfolio, guest experience, operations">
+  <meta name="author" content="Yogesh">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon (gold star) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__logo">Yogesh</div>
+    <div class="preloader__bar">
+      <div class="preloader__bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo">Yogesh<span>.</span></a>
+    <div class="nav__links" id="navLinks">
+      <a href="#about" class="nav__link" data-nav>About</a>
+      <a href="#experience" class="nav__link" data-nav>Experience</a>
+      <a href="#skills" class="nav__link" data-nav>Expertise</a>
+      <a href="#services" class="nav__link" data-nav>Services</a>
+      <a href="#portfolio" class="nav__link" data-nav>Portfolio</a>
+      <a href="#testimonials" class="nav__link" data-nav>Testimonials</a>
+      <a href="#contact" class="nav__cta" data-nav>Let's Connect</a>
+    </div>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__bg-gradient"></div>
+      <div class="hero__bg-particles" id="particles"></div>
+      <div class="hero__grid-lines"></div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero__name">Yogesh</h1>
+        <p class="hero__title">Luxury Hospitality & Hotel Management</p>
+        <p class="hero__desc">
+          Crafting unforgettable guest experiences across premier luxury properties. 
+          12+ years of transforming hospitality operations into world-class standards 
+          of excellence and innovation.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn-primary">Get in Touch</a>
+          <a href="#portfolio" class="btn-outline">View Portfolio</a>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <div class="hero__image-wrapper">
+          <div class="hero__image-frame"></div>
+          <img src="assets/images/hero-portrait.png" alt="Yogesh - Hotel Management Professional" loading="eager">
+          <div class="hero__image-glow"></div>
+        </div>
+        <div class="hero__image-stats">
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="12">0</div>
+            <div class="hero__stat-label">Years</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="50">0</div>
+            <div class="hero__stat-label">Projects</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="8">0</div>
+            <div class="hero__stat-label">Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <div class="marquee__item">Luxury Hotels <span>✦</span> Revenue Management <span>✦</span> Guest Experience <span>✦</span> F&B Operations <span>✦</span> Spa & Wellness <span>✦</span> Event Management <span>✦</span> Staff Training <span>✦</span> Brand Strategy <span>✦</span></div>
+      <div class="marquee__item">Luxury Hotels <span>✦</span> Revenue Management <span>✦</span> Guest Experience <span>✦</span> F&B Operations <span>✦</span> Spa & Wellness <span>✦</span> Event Management <span>✦</span> Staff Training <span>✦</span> Brand Strategy <span>✦</span></div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="section__header reveal">
+      <span class="section__label">About Me</span>
+      <h2 class="section__title">The Story Behind the Service</h2>
+      <p class="section__subtitle">Where passion meets precision in hospitality</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__image-container reveal-left">
+        <div class="about__image-accent"></div>
+        <div class="about__image-card">
+          <img src="assets/images/hotel-project-2.png" alt="Yogesh at luxury hotel">
+        </div>
+        <div class="about__image-accent-2"></div>
+      </div>
+
+      <div class="about__content reveal-right">
+        <h3>Elevating <span>Hospitality</span> Standards</h3>
+        <p>
+          With over a decade of experience in the luxury hospitality industry, I have 
+          dedicated my career to transforming hotel operations and creating extraordinary 
+          guest experiences that leave lasting impressions.
+        </p>
+        <p>
+          My journey began at the front desk of a boutique hotel, where I discovered my 
+          passion for the intricate art of hospitality. Since then, I've managed operations 
+          across five-star properties, led teams of 200+ professionals, and consistently 
+          achieved guest satisfaction scores above 95%.
+        </p>
+        <p>
+          I believe that true luxury is not just about opulent interiors — it's about 
+          anticipating needs, personalizing experiences, and creating moments that guests 
+          carry with them forever.
+        </p>
+
+        <div class="about__highlights">
+          <div class="about__highlight">
+            <span class="about__highlight-icon">🏨</span>
+            5-Star Properties
+          </div>
+          <div class="about__highlight">
+            <span class="about__highlight-icon">👥</span>
+            200+ Team Members
+          </div>
+          <div class="about__highlight">
+            <span class="about__highlight-icon">⭐</span>
+            95%+ Guest Satisfaction
+          </div>
+          <div class="about__highlight">
+            <span class="about__highlight-icon">🌍</span>
+            International Experience
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="section__header reveal">
+      <span class="section__label">Career Journey</span>
+      <h2 class="section__title">Professional Experience</h2>
+      <p class="section__subtitle">A decade of excellence in luxury hospitality</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="experience__timeline">
+      <div class="timeline__item">
+        <div class="timeline__content">
+          <div class="timeline__role">General Manager</div>
+          <div class="timeline__company">The Grand Palace Hotel & Resorts</div>
+          <p class="timeline__desc">
+            Overseeing all hotel operations for a 350-room luxury property. Led a $5M renovation 
+            project, increasing revenue by 42% and achieving a Forbes Five-Star rating.
+          </p>
+        </div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2022 — Present</div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__date">2019 — 2022</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__role">Director of Operations</div>
+          <div class="timeline__company">Regal Hospitality Group</div>
+          <p class="timeline__desc">
+            Managed multi-property operations across 4 luxury hotels. Implemented 
+            new SOP frameworks reducing costs by 18% while improving service quality scores.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__content">
+          <div class="timeline__role">Assistant General Manager</div>
+          <div class="timeline__company">Meridian Hotels International</div>
+          <p class="timeline__desc">
+            Drove F&B revenue growth of 35%. Launched signature dining concepts and 
+            curated exclusive wine events generating ₹2.5 Cr in annual revenue.
+          </p>
+        </div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2017 — 2019</div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__date">2014 — 2017</div>
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__role">Front Office Manager</div>
+          <div class="timeline__company">Crown Plaza Hotels</div>
+          <p class="timeline__desc">
+            Managed front office operations for a 200-room property. Achieved the highest 
+            guest satisfaction score in the chain's history at 97.3%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="section__header reveal">
+      <span class="section__label">Core Expertise</span>
+      <h2 class="section__title">Areas of Mastery</h2>
+      <p class="section__subtitle">Skills honed across years of premium hospitality</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="skills__grid">
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">🏛️</span>
+        <h3 class="skill-card__title">Hotel Operations</h3>
+        <p class="skill-card__desc">End-to-end management of luxury hotel operations, from housekeeping to concierge services.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="95"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">📊</span>
+        <h3 class="skill-card__title">Revenue Management</h3>
+        <p class="skill-card__desc">Strategic pricing, yield management, and forecasting to maximize profitability.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">🍽️</span>
+        <h3 class="skill-card__title">F&B Management</h3>
+        <p class="skill-card__desc">Menu engineering, kitchen operations, and creating signature dining experiences.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="92"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">✨</span>
+        <h3 class="skill-card__title">Guest Experience</h3>
+        <p class="skill-card__desc">Designing personalized, memorable guest journeys that exceed expectations.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="97"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">👥</span>
+        <h3 class="skill-card__title">Team Leadership</h3>
+        <p class="skill-card__desc">Building high-performance teams through training, mentorship, and empowerment.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="94"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">🎪</span>
+        <h3 class="skill-card__title">Event Management</h3>
+        <p class="skill-card__desc">Planning and executing world-class conferences, weddings, and corporate events.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="88"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">🧘</span>
+        <h3 class="skill-card__title">Spa & Wellness</h3>
+        <p class="skill-card__desc">Creating holistic wellness programs and premium spa experiences for discerning guests.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="85"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-card__icon">📈</span>
+        <h3 class="skill-card__title">Brand Strategy</h3>
+        <p class="skill-card__desc">Developing brand identity, positioning strategies, and market differentiation.</p>
+        <div class="skill-card__bar">
+          <div class="skill-card__bar-fill" data-width="87"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="section__header reveal">
+      <span class="section__label">What I Offer</span>
+      <h2 class="section__title">Professional Services</h2>
+      <p class="section__subtitle">Comprehensive hospitality solutions for premium brands</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="services__grid">
+      <div class="service-card reveal">
+        <span class="service-card__number">01</span>
+        <span class="service-card__icon">🏢</span>
+        <h3 class="service-card__title">Hotel Pre-Opening</h3>
+        <p class="service-card__desc">
+          Complete pre-opening management including hiring, training, SOP development, 
+          vendor selection, and soft/grand opening execution for new hotel properties.
+        </p>
+      </div>
+
+      <div class="service-card reveal">
+        <span class="service-card__number">02</span>
+        <span class="service-card__icon">⚙️</span>
+        <h3 class="service-card__title">Operations Consulting</h3>
+        <p class="service-card__desc">
+          Comprehensive audit and optimization of hotel operations, workflow redesign, 
+          and technology implementation to boost efficiency and guest satisfaction.
+        </p>
+      </div>
+
+      <div class="service-card reveal">
+        <span class="service-card__number">03</span>
+        <span class="service-card__icon">💰</span>
+        <h3 class="service-card__title">Revenue Optimization</h3>
+        <p class="service-card__desc">
+          Data-driven revenue management strategies, dynamic pricing implementation, 
+          and distribution channel optimization to maximize RevPAR and total revenue.
+        </p>
+      </div>
+
+      <div class="service-card reveal">
+        <span class="service-card__number">04</span>
+        <span class="service-card__icon">🎓</span>
+        <h3 class="service-card__title">Staff Training</h3>
+        <p class="service-card__desc">
+          Customized training programs for hospitality staff covering service excellence, 
+          leadership development, and brand standard implementation.
+        </p>
+      </div>
+
+      <div class="service-card reveal">
+        <span class="service-card__number">05</span>
+        <span class="service-card__icon">🎭</span>
+        <h3 class="service-card__title">Experience Design</h3>
+        <p class="service-card__desc">
+          Curating bespoke guest journey maps, signature experiences, and loyalty programs 
+          that differentiate your property in the competitive luxury market.
+        </p>
+      </div>
+
+      <div class="service-card reveal">
+        <span class="service-card__number">06</span>
+        <span class="service-card__icon">📋</span>
+        <h3 class="service-card__title">Quality Assurance</h3>
+        <p class="service-card__desc">
+          Implementing quality management systems, mystery audits, and continuous 
+          improvement frameworks to maintain world-class service standards.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section portfolio" id="portfolio">
+    <div class="section__header reveal">
+      <span class="section__label">Featured Work</span>
+      <h2 class="section__title">Projects & Properties</h2>
+      <p class="section__subtitle">A showcase of transformative hospitality projects</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="portfolio__grid">
+      <div class="project-card reveal">
+        <img src="assets/images/hotel-project-1.png" alt="The Grand Palace Hotel">
+        <div class="project-card__overlay">
+          <span class="project-card__tag">5-Star Resort</span>
+          <h3 class="project-card__title">The Grand Palace Resort</h3>
+          <p class="project-card__desc">Led a complete $5M property renovation and rebranding, resulting in Forbes Five-Star designation and 42% revenue increase.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="assets/images/hotel-project-2.png" alt="Signature Restaurant">
+        <div class="project-card__overlay">
+          <span class="project-card__tag">Fine Dining</span>
+          <h3 class="project-card__title">Aura — Signature Restaurant</h3>
+          <p class="project-card__desc">Conceptualized and launched a fine dining restaurant generating ₹2.5 Cr annual revenue within the first year.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="assets/images/hotel-project-3.png" alt="Royal Suite Collection">
+        <div class="project-card__overlay">
+          <span class="project-card__tag">Suite Collection</span>
+          <h3 class="project-card__title">Royal Suite Collection</h3>
+          <p class="project-card__desc">Designed and curated the premium suite experience including butler service, private dining, and exclusive amenities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section" id="testimonials">
+    <div class="section__header reveal">
+      <span class="section__label">Client Words</span>
+      <h2 class="section__title">Testimonials</h2>
+      <p class="section__subtitle">What industry leaders say about working with me</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="testimonials__slider reveal">
+      <div class="testimonials__track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            Yogesh transformed our property from a three-star operation into a 
+            Forbes-rated luxury destination. His vision and execution are unparalleled 
+            in the industry.
+          </p>
+          <div class="testimonial-card__author">Rajesh Mehta</div>
+          <div class="testimonial-card__role">CEO, Grand Palace Hotels Group</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            The training programs Yogesh designed for our staff resulted in the highest 
+            guest satisfaction scores our chain has ever recorded. A true hospitality leader.
+          </p>
+          <div class="testimonial-card__author">Priya Sharma</div>
+          <div class="testimonial-card__role">VP Operations, Regal Hospitality</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            Working with Yogesh on our new property launch was an extraordinary 
+            experience. His attention to detail and commitment to excellence sets 
+            the gold standard in hotel management.
+          </p>
+          <div class="testimonial-card__author">Arjun Kapoor</div>
+          <div class="testimonial-card__role">Owner, Meridian Hotels International</div>
+        </div>
+      </div>
+
+      <div class="testimonials__dots" id="testimonialsDots">
+        <button class="testimonials__dot active" data-index="0" aria-label="Testimonial 1"></button>
+        <button class="testimonials__dot" data-index="1" aria-label="Testimonial 2"></button>
+        <button class="testimonials__dot" data-index="2" aria-label="Testimonial 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section class="section awards" id="awards">
+    <div class="section__header reveal">
+      <span class="section__label">Recognition</span>
+      <h2 class="section__title">Awards & Certifications</h2>
+      <p class="section__subtitle">Accolades earned through dedication to excellence</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="awards__grid">
+      <div class="award-card reveal">
+        <span class="award-card__icon">🏆</span>
+        <h3 class="award-card__title">Hotelier of the Year</h3>
+        <span class="award-card__year">2024</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">⭐</span>
+        <h3 class="award-card__title">Forbes Five-Star Rating</h3>
+        <span class="award-card__year">2023</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">🎖️</span>
+        <h3 class="award-card__title">Excellence in F&B</h3>
+        <span class="award-card__year">2022</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">📜</span>
+        <h3 class="award-card__title">CHA Certification</h3>
+        <span class="award-card__year">2021</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">🌟</span>
+        <h3 class="award-card__title">Best Luxury Property</h3>
+        <span class="award-card__year">2023</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">🎯</span>
+        <h3 class="award-card__title">Revenue Growth Award</h3>
+        <span class="award-card__year">2022</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">💎</span>
+        <h3 class="award-card__title">Guest Choice Award</h3>
+        <span class="award-card__year">2024</span>
+      </div>
+      <div class="award-card reveal">
+        <span class="award-card__icon">🌿</span>
+        <h3 class="award-card__title">Green Hotel Certified</h3>
+        <span class="award-card__year">2023</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section__header reveal">
+      <span class="section__label">Get in Touch</span>
+      <h2 class="section__title">Let's Create Excellence</h2>
+      <p class="section__subtitle">Ready to elevate your hospitality experience?</p>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="contact__wrapper">
+      <div class="contact__info reveal-left">
+        <h3>Let's Build Something <span>Extraordinary</span></h3>
+        <p>
+          Whether you're launching a new property, looking to elevate your existing 
+          operations, or seeking expert guidance in hospitality management — I'm here 
+          to help you achieve excellence.
+        </p>
+
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">📧</div>
+            <div class="contact__detail-text">
+              <span>Email</span>
+              <a href="mailto:yogesh@luxuryhospitality.com">yogesh@luxuryhospitality.com</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">📱</div>
+            <div class="contact__detail-text">
+              <span>Phone</span>
+              <a href="tel:+919876543210">+91 98765 43210</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">📍</div>
+            <div class="contact__detail-text">
+              <span>Location</span>
+              <p>Mumbai, Maharashtra, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__socials">
+          <a href="#" class="contact__social" aria-label="LinkedIn">in</a>
+          <a href="#" class="contact__social" aria-label="Twitter">𝕏</a>
+          <a href="#" class="contact__social" aria-label="Instagram">📷</a>
+          <a href="#" class="contact__social" aria-label="Facebook">f</a>
+        </div>
+      </div>
+
+      <form class="contact__form reveal-right" id="contactForm">
+        <div class="form__row">
+          <div class="form__group">
+            <label class="form__label" for="name">Your Name</label>
+            <input class="form__input" type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="email">Your Email</label>
+            <input class="form__input" type="email" id="email" name="email" placeholder="john@example.com" required>
+          </div>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="subject">Subject</label>
+          <input class="form__input" type="text" id="subject" name="subject" placeholder="How can I help you?">
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="message">Message</label>
+          <textarea class="form__textarea" id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="form__submit" id="formSubmit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__logo">Yogesh</div>
+    <p class="footer__tagline">Crafting Extraordinary Hospitality Experiences</p>
+    <div class="footer__links">
+      <a href="#about" class="footer__link">About</a>
+      <a href="#experience" class="footer__link">Experience</a>
+      <a href="#skills" class="footer__link">Expertise</a>
+      <a href="#portfolio" class="footer__link">Portfolio</a>
+      <a href="#contact" class="footer__link">Contact</a>
+    </div>
+    <p class="footer__bottom">&copy; 2026 Yogesh. All rights reserved. Crafted with passion for hospitality.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
